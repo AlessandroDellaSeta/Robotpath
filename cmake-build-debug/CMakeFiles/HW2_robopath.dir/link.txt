@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\HW2_robopath.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\HW2_robopath.dir/objects.a @CMakeFiles\HW2_robopath.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\HW2_robopath.dir/objects.a -Wl,--no-whole-archive  -o HW2_robopath.exe -Wl,--out-implib,libHW2_robopath.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\HW2_robopath.dir\linklibs.rsp
