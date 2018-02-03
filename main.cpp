@@ -10,7 +10,7 @@ int main() {
     double r, O;
     double prevX = 0;
     double prevY = 0;
-    ifstream f("C:\\Users\\Alessandro\\Desktop\\robotpath.dat");
+    ifstream f("robotpath.dat");
     string lineBuf;
     getline(f, lineBuf);
     istringstream line(lineBuf);
